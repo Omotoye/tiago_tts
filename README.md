@@ -26,7 +26,7 @@ rosdep update
 - Use rosdep to get all the required dependencies of all the packages in the workspace
 
 ```bash
-rosdep install --from-paths src --ignore-src -r -y
+rosdep install --from-paths src --ignore-src -r -y # run this command in the working directory of the workspace
 ```
 
 - run catkin build to build the packages.
